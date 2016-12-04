@@ -1,5 +1,5 @@
 {
-  "name": "@janry/react-contextmenu",
+  "name": "@janrywang/react-contextmenu",
   "version": "2.0.0",
   "description": "Context Menu implemented in React",
   "main": "modules/index.js",
