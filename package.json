@@ -20,8 +20,7 @@
     "module": "babel src --out-dir modules",
     "build": "npm run clean && npm run dist && npm run module",
     "examples": "webpack --config examples.config.js --progress --profile --colors",
-    "watch": "./node_modules/.bin/webpack --config examples.config.js --progress --profile --colors --watch",
-    "prepublish": "npm run build"
+    "watch": "./node_modules/.bin/webpack --config examples.config.js --progress --profile --colors --watch"
   },
   "author": "Vivek Kumar Bansal <contact@vkbansal.me>",
   "license": "MIT",
